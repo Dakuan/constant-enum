@@ -1,5 +1,5 @@
-var en = require('./index.js');
-var expect = require('expect.js');
+var en = require('./index.js'),
+    expect = require('expect.js');
 describe('ConstantEnum', function () {
     var subject;
     var consts = ['MON', 'TUES', 'WEDS'];
@@ -21,9 +21,9 @@ describe('ConstantEnum', function () {
     });
 
     it('should be frozen', function () {
-    	subject.foo = 'bar';
-    	subject[consts[0]] = 'bar';
-    	expect(subject).to.not.have.property('foo');
-    	expect(subject[consts[0]]).to.not.equal('bar');
+        subject.foo = 'bar';
+        subject[consts[0]] = 'bar';
+        expect(subject).to.not.have.property('foo');
+        expect(subject[consts[0]]).to.not.equal('bar');
     });
 });
