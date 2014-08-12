@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/Dakuan/constant-enum/issues"
   },
-  "keywords": ["flux", "react" "immutable", "constant", "enumeration", "enum"],
+  "keywords": ["flux", "react", "immutable", "constant", "enumeration", "enum"],
   "homepage": "https://github.com/Dakuan/constant-enum",
   "dependencies": {
     "underscore": "^1.6.0"
