@@ -1,0 +1,30 @@
+{
+  "name": "constant-enum",
+  "version": "0.0.0",
+  "description": "creates a frozen object with matching keys and values",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Dakuan/constant-enum.git"
+  },
+  "author": {
+    "name": "Dominic Barker",
+    "email": "dom.barker808@gmail.com",
+    "url": "http://www.dombarker.co.uk"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dakuan/constant-enum/issues"
+  },
+  "homepage": "https://github.com/Dakuan/constant-enum",
+  "dependencies": {
+    "underscore": "^1.6.0"
+  },
+  "devDependencies": {
+    "mocha": "^1.21.4",
+    "expect.js": "^0.3.1"
+  }
+}
