@@ -1,6 +1,6 @@
 {
   "name": "constant-enum",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "creates a frozen object with matching keys and values",
   "main": "index.js",
   "scripts": {

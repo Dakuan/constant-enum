@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/Dakuan/constant-enum.svg?branch=master)](https://travis-ci.org/Dakuan/constant-enum)
 constant-enum
 =============
 
