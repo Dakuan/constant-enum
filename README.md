@@ -23,3 +23,6 @@ en.apply(null, ['MON', 'TUES', 'WEDS']);
   WEDS: 'WEDS'
 }
 ```
+
+## Why?
+We found this pattern helpful when implementing [Facebook's Flux architecture](http://facebook.github.io/react/docs/flux-overview.html). We use this pattern as an alterative to the one demonstrated in the [Flux TodoMVC example](https://github.com/facebook/flux/blob/master/examples/flux-todomvc/js/constants/TodoConstants.js).
